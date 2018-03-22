@@ -1,5 +1,5 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family', "Open Sans", sans-serif;
   background-color: #f2f2f2;
 }
 
@@ -29,4 +29,5 @@ h1 {
   .padding-left {
     padding-left: .5em;
   }
+
 }
