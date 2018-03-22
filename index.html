@@ -8,23 +8,22 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
 </head>
 <body>
   <section>
-    <div>
+    <div class="max-length island">
       <h1>Want to go to Mars?</h1>
       <hr>
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-    </div>
-    <div>
     <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
     <fieldset>
-      <legend>Personal details</legend>
-    <div>
+      <legend class="italic push">Personal details</legend>
+    <div class="push">
       <label for="name">Name</label>
       <input id="name" name="name" required>
     </div>
-    <div>
+    <div class="push">
       <label for="age">Age</label>
       <input id="age" name="age" required>
     </div>
@@ -47,13 +46,13 @@
     </div>
   </fieldset>
   <fieldset>
-    <legend>Mission statement</legend>
+    <legend class="italic push">Mission statement</legend>
     <div class="push">
       <label for="details">Why do you want to go to Mars?</label>
       <textarea id="details" name="message" required></textarea>
     </div>
-    <div>
-      <button class="btn btn-light mega" type="submit">Register for the trip!</button>
+    <div class="text-center">
+      <button class="btn mega" type="submit">Register for the trip!</button>
     </div>
   </fieldset>
   </form>
