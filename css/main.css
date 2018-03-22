@@ -5,3 +5,12 @@ html {
 legend {
   padding-right: 1em;
 }
+
+h1 {
+  border-bottom-color: #000;
+  border-style: solid;
+  border-width: thin;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
